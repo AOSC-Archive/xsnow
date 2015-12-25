@@ -1,0 +1,29 @@
+head	1.1;
+access;
+symbols;
+locks
+	rick:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2000.12.17.00.56.28;	author rick;	state Exp;
+branches;
+next	;
+
+
+desc
+@snow00.xbm
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#define snow00_width 3
+#define snow00_height 3
+static char snow00_bits[] = {
+   0x05, 0x02, 0x05};
+@
