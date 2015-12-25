@@ -24,7 +24,7 @@ AC_ARG_ENABLE(debug,
               [enable_debug=yes])
 
 if test "x$enable_debug" = "xyes"; then                                             
-  test "$cflags_set" = set || CFLAGS="$CFLAGS -g -DDEBUG" 
+  test "$cflags_set" = set || CFLAGS="$CFLAGS -g -Ddebug" 
 fi
 
 AC_CONFIG_HEADERS([config.h])

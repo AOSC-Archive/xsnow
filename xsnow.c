@@ -200,7 +200,6 @@
 						Credit to Robin Hogan <R.J.Hogan@reading.ac.uk>
 */
 
-#define debug 0
 
 
 /*
